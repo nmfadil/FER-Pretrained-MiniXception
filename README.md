@@ -35,8 +35,8 @@ This project was developed as part of a Data Science and AI course internship, f
 
 1. **Clone the Repository**:
     ```
-    git clone https://github.com/[your-username]/[your-repo-name].git
-    cd [your-repo-name]
+    git clone https://github.com/nmfadil/FER-Pretrained-MiniXception.git
+    cd FER-Pretrained-MiniXception
     ```
 2. **Create a Virtual Environment (Python 3.12)**:
     ```
@@ -67,7 +67,7 @@ This project was developed as part of a Data Science and AI course internship, f
 1. Place the `fer2013_mini_XCEPTION.102-0.66.hdf5` file in the project directory.
 2. Run the script:
     ```
-    python fer_pretrained.py
+    python emorec_pretrain.py
     ```
 3. A window will open displaying the webcam feed with detected faces and their predicted emotions.
 4. Press `q` to exit the application.
